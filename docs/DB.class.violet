@@ -7,7 +7,7 @@
      <void property="text">
       <string>EMPLOYEE_ID : INT PK
 EMPLOYEE_USERNAME : VARCHAR(15) UNIQUE
-EMPLOYE_PASSWORD : VARCHAR(64)
+EMPLOYEE_PASSWORD : VARCHAR(64)
 EMPLOYEE_FIRST_NAME : VARCHAR(15)
 EMPLOYEE_LAST_NAME : VARCHAR(15)
 EMPLOYEE_EMAIL : VARCHAR(25)
@@ -62,19 +62,19 @@ ACCESS_LEVEL_NAME : VARCHAR(20)</string>
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double1"/>
-      <double>738.0</double>
+      <double>746.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double1"/>
-      <double>65.0</double>
+      <double>75.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>738.0</double>
-     <double>65.0</double>
+     <double>746.0</double>
+     <double>75.0</double>
     </void>
    </object>
   </void>
@@ -99,19 +99,19 @@ COMPANY_LOGO : ?</string>
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double2"/>
-      <double>66.0</double>
+      <double>68.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double2"/>
-      <double>46.0</double>
+      <double>56.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>66.0</double>
-     <double>46.0</double>
+     <double>68.0</double>
+     <double>56.0</double>
     </void>
    </object>
   </void>
@@ -122,7 +122,7 @@ COMPANY_LOGO : ?</string>
       <string>TIMESHEET_EMPLOYEE_ID : INT PK
 TIMESHEET_TIME_IN : DATE
 TIMESHEET_TIME_OUT : DATE
-TIMESHEET_COMPANY_ID</string>
+COMPANY_ID : INT FK</string>
      </void>
     </void>
     <void property="name">
@@ -143,12 +143,42 @@ TIMESHEET_COMPANY_ID</string>
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double3"/>
-      <double>260.0</double>
+      <double>318.0</double>
      </void>
     </void>
     <void method="setLocation">
      <double>427.0</double>
-     <double>260.0</double>
+     <double>318.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.NoteNode" id="NoteNode0">
+    <void property="text">
+     <void property="text">
+      <string>EMPLOYEE_PASSWORD is generated
+using the bcrypt library in php.</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double4">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double4"/>
+      <double>134.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double4"/>
+      <double>10.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>134.0</double>
+     <double>10.0</double>
     </void>
    </object>
   </void>
@@ -178,6 +208,11 @@ TIMESHEET_COMPANY_ID</string>
    </object>
    <object idref="ClassNode0"/>
    <object idref="ClassNode3"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.NoteEdge"/>
+   <object idref="ClassNode0"/>
+   <object idref="NoteNode0"/>
   </void>
  </object>
 </java>
