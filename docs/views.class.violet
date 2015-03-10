@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <object class="com.horstmann.violet.ClassDiagramGraph">
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode0">
+    <void property="attributes">
+     <void property="text">
+      <string>EMPLOYEE_ID
+EMPLOYEE_FIRST_NAME
+EMPLOYEE_LAST_NAME
+EMPLOYEE_EMAIL
+ACCESS_LEVEL_NAME
+COMPANY_NAME
+TIMESHEET_TIME_IN
+TIMESHEET_TIME_OUT
+</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>EMPLOYEE_TIMESHEET_VIEW</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double0">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double0"/>
+      <double>106.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double0"/>
+      <double>53.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>106.0</double>
+     <double>53.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode" id="ClassNode1">
+    <void property="attributes">
+     <void property="text">
+      <string>EMPLOYEE_USERNAME
+EMPLOYEE_FIRST_NAME
+EMPLOYEE_LAST_NAME
+EMPLOYEE_EMAIL
+ACCESS_LEVEL_NAME
+COMPANY_NAME</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>EMPLOYEE_COMPANY_VIEW</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double1">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double1"/>
+      <double>379.0</double>
+     </void>
+    </void>
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point2D$Double1"/>
+      <double>46.0</double>
+     </void>
+    </void>
+    <void method="setLocation">
+     <double>379.0</double>
+     <double>46.0</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
